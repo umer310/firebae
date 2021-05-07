@@ -99,7 +99,7 @@ export class User extends Component {
 
           <div className="badge badge-light">Followers:{public_repos}</div>
 
-          <div className="badge badge-dark">Followers:{public_gists}</div>
+          <div className="badge badge-dark">Followers:test{public_gists}</div>
         </div>
         <Repos repos={repos} />
       </Fragment>
